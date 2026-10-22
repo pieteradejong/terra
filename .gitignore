@@ -3,3 +3,7 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
+
+# Local env files hold secrets too (.env.local, .env.production); .env.example is the shared template
+.env.*
+!.env.example
